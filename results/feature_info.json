@@ -1,0 +1,44 @@
+{
+  "feature_cols": [
+    "age",
+    "bp",
+    "sg",
+    "al",
+    "su",
+    "bgr",
+    "bu",
+    "sc",
+    "sod",
+    "pot",
+    "hemo",
+    "pcv",
+    "wc",
+    "rc",
+    "rbc",
+    "pc",
+    "pcc",
+    "ba",
+    "htn",
+    "dm",
+    "cad",
+    "appet",
+    "pe",
+    "ane"
+  ],
+  "n_features": 24,
+  "n_train": 240,
+  "n_val": 80,
+  "n_test": 80,
+  "train_class_balance": {
+    "ckd": 150,
+    "notckd": 90
+  },
+  "val_class_balance": {
+    "ckd": 50,
+    "notckd": 30
+  },
+  "test_class_balance": {
+    "ckd": 50,
+    "notckd": 30
+  }
+}
